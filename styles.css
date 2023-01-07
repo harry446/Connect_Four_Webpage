@@ -78,7 +78,7 @@ body {
 .cell.x::after,
 .board.x .cell:not(.x):not(.o):hover::before,
 .board.x .cell:not(.x):not(.o):hover::after {
-    content: '';
+    content: "";
     position: absolute;
     width: calc(var(--mark-size) * 0.15);
     height: var(--mark-size);
@@ -101,7 +101,7 @@ body {
 .cell.o::after,
 .board.o .cell:not(.x):not(.o):hover::before,
 .board.o .cell:not(.x):not(.o):hover::after {
-    content: '';
+    content: "";
     position: absolute;
     border-radius: 50%;
 }
