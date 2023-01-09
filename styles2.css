@@ -27,7 +27,7 @@ body {
     background-color: #ddd;
 }
 
-.cur-page a.active {
+.cur-page {
     color: white;
     background-color: blue;
 }
