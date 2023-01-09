@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.nav-list {
+    float: left;
+}
+
+.nav-list a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+.nav-list:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.cur-page a.active {
+    color: white;
+    background-color: blue;
+}
