@@ -1,1 +1,3 @@
-# Tic Tac Toe Webpage
+# Mini-game Web page
+
+## About
